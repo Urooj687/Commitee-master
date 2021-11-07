@@ -37,14 +37,8 @@ class CommitteeList extends Component {
 
     }
     deleteOb = (index) => {
-       /* const newList = JSON.parse(JSON.stringify(this.state.committee_arr));
-        console.log(index);
-        newList.splice(index, 1);*/
-        /*this.setState({
-            committee_arr: newList
-        });*/
+      
         this.props.delCommittee(index)
-
 
     }
     handleSubmit = (e) => {
@@ -215,7 +209,6 @@ const mapDispatchToProps = dispatch => {
     upCommittee: (commitee, elementsIndex)=>dispatch({ payload:{arr:commitee, index:elementsIndex}, type:'UpdateCommittee'})
 
     }
-
 
 };
 

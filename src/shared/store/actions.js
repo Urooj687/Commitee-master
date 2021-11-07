@@ -5,5 +5,6 @@ export const actions = {
     addMember:{type:'AddMember'},
     removeMember:{type:'RemoveMember'},
     markAtt:{type:'MarkAttendance'}
+  
   };
   

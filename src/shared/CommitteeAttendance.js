@@ -44,10 +44,6 @@ class CommitteeAttendance extends Component {
                 }
             }
 
-
-
-
-
         }
     }
     componentDidMount() {
@@ -119,8 +115,6 @@ class CommitteeAttendance extends Component {
                 }
             }
 
-
-
         }, () => {
             console.log(this.state.month)
             var _val = 0;
@@ -142,10 +136,6 @@ class CommitteeAttendance extends Component {
                 days: _days
             })
         })
-
-
-
-
 
     }
     numberOfDays = (_month, year) => {
@@ -214,7 +204,6 @@ class CommitteeAttendance extends Component {
                 }
             }
 
-
             //objCopy.month.member=_member;
             this.setState({ _days: days_attended })
             //Object.assign(this.state.obj, objCopy);
@@ -222,12 +211,6 @@ class CommitteeAttendance extends Component {
                 console.log(this.state.obj);
 
             })
-
-            /* this.setState({
-                 obj:objCopy
-                
- 
-             })*/
 
         }
         else {
@@ -261,16 +244,6 @@ class CommitteeAttendance extends Component {
 
         }
 
-
-
-
-
-
-
-
-
-
-
     }
 
     render() {
@@ -302,8 +275,6 @@ class CommitteeAttendance extends Component {
 
                 </div>
 
-
-
             </div>
             <TableContainer >
                 <Table className="classes" size="small" aria-label="a dense table">
@@ -333,15 +304,9 @@ class CommitteeAttendance extends Component {
 
                                         </TableCell>)
 
-
                                 })}
 
-
-
-
                             </TableRow>)
-
-
 
                         })}
 
@@ -361,27 +326,19 @@ class CommitteeAttendance extends Component {
                         </Form.Group>
 
                     </form>
-
-
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={() => { this.setState({ showSheet: false }) }}>
                         Close
-</Button>
+                    </Button>
                     <Button variant="primary" onClick={this.handleSubmit}>
                         Save Changes
-</Button>
+                    </Button>
                 </Modal.Footer>
             </Modal>
-
-
-
-
 
         </div>)
     }
 }
-
-
 
 export { CommitteeAttendance };

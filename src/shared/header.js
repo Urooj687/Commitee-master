@@ -26,11 +26,10 @@ class header extends Component {
                         </Nav>
                 </Navbar>
 
-
-
             </div>
         )
     }
+
 
 }
 export default header;
