@@ -1,0 +1,29 @@
+.CommitteeAttendance  .parent_div{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
+    align-items:center;
+}
+.CommitteeAttendance  #edit-bg {
+    align-items: center;
+    border-radius: 450px;
+    bottom: 16px;
+    cursor: pointer;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    min-width: 100px;
+    position: fixed;
+    right: 16px;
+    width: fit-content;
+    color:white;
+}
+.CommitteeAttendance #edit-bg.ep-enhanced {
+    background-color: #008ad3;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .16), 0 8px 2px rgba(0, 0, 0, .23);
+}
+
+.CommitteeAttendance .classes{
+    min-width: 650;
+}

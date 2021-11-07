@@ -1,0 +1,24 @@
+.header_comp {
+    color:white;
+
+    background-color:#008ad3;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    /*padding-left:10px;*/
+    
+
+}
+
+.header_comp .parent_div{
+   display: flex; 
+    justify-content: space-between;
+    width:100%;
+    align-items:center;
+}
+
+.header_comp .parent_div .prefix-icon{
+    flex-grow:1;
+}
+
+
